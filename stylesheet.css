@@ -1,0 +1,44 @@
+.title {
+  color:black;
+}
+.header{
+  background-color:silver;
+}
+img {
+  height:250px;
+  width:250px;
+}
+a{
+  display:block;
+  cursor:pointer;
+  width:80px;
+}
+.main{
+  display:flex;
+  flex-flow:row wrap;
+  height:700px;
+  background-image: url(https://downloadwap.com/thumbs2/wallpapers/p2ls/new/37/eIW3s2tWz1.jpg);
+  background-size:contain;
+}
+.button{
+  background-color:#dee7ec;
+  box-shadow:10px 10px black;
+  margin-bottom: 30px;
+}
+.button:active{
+  box-shadow:none;
+  position:relative;
+  top:10px;
+  left:10px;
+  cursor:pointer;
+}
+
+input, textarea{
+  width:400px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  font-size:18px;
+}
+  .contact-form{
+    padding-top:10px;
+  }
